@@ -1,2 +1,2 @@
 # inf-4533
-School Project
+Ceci est un petit fichier readme pour mettre sur Github
