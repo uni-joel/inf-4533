@@ -94,6 +94,23 @@ body{
 	font-size: 125%;
 }
 
+.epreuves li:first-child{
+	color: red
+}
+
+.epreuves li:nth-child(2){
+	color: #0000ff;
+}
+
+.epreuves li:nth-child(3){
+	color: rgba(200,200,0,1);
+}
+
+.epreuves li:last-child{
+	color: hsl(120, 100%, 30%);
+}
+
+
 .pole-nord{
 	border: 2px solid #f00;
 	padding: 5px;
