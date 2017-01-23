@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>2017-1-INF4533-01 Technologies Internet</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <title>2017-1-INF4533-01 Technologies Internet</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="cv.css">
-		<script>
-			var hello = "Hello World!";
-			console.log(hello);
-		</script>
-	</head>
-	<body>
-		<div class="page">
-			<div class="page-content clear">
-				<h1>Technologies Internet</h1>
-				<div class="page-text">
-					<p>SVP poser des questions</p>
-					<p class="lol">Bonjour!</p>
+	<script src="cv.js"></script>
+    <script>
+      var hello = "Hello World!";
+      console.log(hello);
+	  
+	  /* Test des fonctions */
+	  var longu = longueur("Hello");
+	  console.log(longu);
+	  
+	  var efface = effacer('o', "Hello");
+	  console.log(efface);
+	  
+	  var deux = second([44, 82, 27, 14, 93]);
+	  console.log(deux);
+	  
+	  var comp = compose(Math.sqrt, Math.sqrt);
+	  console.log(comp);
+	  
+	  var array1 = map(function(x){ return x + 1; }, [33,14,5,-1,20,99]);
+	  console.log(array1);
+	  
+	  var array2 = fmap([Math.sqrt,  function(x){ return x + 1; }], 4);
+	  console.log(array2);
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-content clear">
+        <h1>Technologies Internet</h1>
+        <div class="page-text">
+          <p>SVP poser des questions</p>
+          <p class="lol">Bonjour!</p>
           <img src="photo.png">
-				</div>
-				<div class="css-clock clear">
-					<div class="box-handle box-handle-heure">
-						<div class="handle-heure"></div>
-					</div>
-					<div class="box-handle box-handle-minute">
-						<div class="handle-minute"></div>
-					</div>
-					<div class="box-handle box-handle-seconde">
-						<div class="handle-seconde"></div>
-					</div>
-					<div class="horloge"></div>
-				</div>
-			</div>
-		</div>
-	</body>
+		  <h2 class="title-cv">CV du bonhomme malheur</h2>
+		  <p>Cet homme est toujours malheureux. Il cherche à devenir heureux d'une manière ou d'une autre</p>
+		  <p>Il a été en <span class="amerique">Amérique</span>, en <span class="europe">Europe</span>, en <span class="asie">Asie</span> et en <span class="afrique">Afrique</span>.</p>
+		  <p>Il a même visité la <span class="tour-eiffel">T<span>o<span>u<span>r <span>E<span>i<span>f<span>f<span>e<span>l</span></span></span></span></span></span></span></span></span></span></p>
+		  <p>Il s'en ve maintenant au <span class="pole-nord">Pôle Nord...</span> Va t'il trouver le bonheur?</p>
+		  <a href="http://www.uqo.ca/test/page.html#tips">Lien</a>  Ancre vers un URL absolue
+          <br>
+		  <a href="page.html#tips">Lien</a>  Ancre vers un URL relatif
+          <br>
+		  <a href="#tips">Lien</a>  Ancre sur cette page
+        </div>
+        <div class="css-clock clear">
+          <div class="box-handle box-handle-heure">
+            <div class="handle-heure"></div>
+          </div>
+          <div class="box-handle box-handle-minute">
+            <div class="handle-minute"></div>
+          </div>
+          <div class="box-handle box-handle-seconde">
+            <div class="handle-seconde"></div>
+          </div>
+          <div class="horloge"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
