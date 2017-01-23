@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .page{
@@ -49,6 +50,60 @@ body{
   50%  {color: green}
   75%  {color: blue}
   100% {color: red}
+}
+
+.title-cv{
+	font-family: monospace;
+}
+
+.amerique{
+	color: #fff;
+	background: #00204E;
+	border: 2px solid #C30C3E;
+	display: inline-block;
+}
+
+.europe{
+	letter-spacing: 2px;
+}
+
+.europe:hover:after{
+	content: " (brexit)";
+}
+
+.afrique{
+	background: linear-gradient(red, yellow);
+}
+
+.asie{
+	line-height: 8px;
+	font-size: 8px;
+	vertical-align: top;
+}
+
+.tour-eiffel{
+	text-transform: uppercase;
+}
+
+.tour-eiffel span{
+	font-size: 112%;
+	transition: 5s;
+}
+
+.tour-eiffel:hover span{
+	font-size: 125%;
+}
+
+.pole-nord{
+	border: 2px solid #f00;
+	padding: 5px;
+	background: url("snow.png");
+	animation: snow 3s infinite linear;
+}
+
+@keyframes snow{
+  0%   {background-position: 50% 20px;}
+  100% {background-position: 50% 120px;}
 }
 
 .css-clock{
